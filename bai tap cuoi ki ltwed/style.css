@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: rgba(0,0,0,0.85);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 15px cyan;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background: cyan;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00bfbf;
+}
+
+/* PASSWORD */
+.password-box {
+    position: relative;
+    width: 60%;
+    margin: auto;
+}
+
+.password-box input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.toggle {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.strength-bar, .risk-bar {
+    width: 60%;
+    height: 10px;
+    background: gray;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+#strengthFill, #riskFill {
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.requirements {
+    list-style: none;
+    padding: 0;
+}
